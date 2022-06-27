@@ -29,7 +29,7 @@ try:
   format = input("pilih format :")
   if format == "1":
     ytmp3(url)
-  else format == "2":
+  elif format == "2":
     ytmp3(url)
   else:
     print("Input Salah!")
